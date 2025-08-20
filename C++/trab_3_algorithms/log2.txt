@@ -1,0 +1,27 @@
+before crash 
+edge = 4
+edge = 2
+edge = 2
+is_acyclic(edge, parent, rank) = 1
+edge = 1
+edge = 3
+edge = 5
+is_acyclic(edge, parent, rank) = 1
+edge = 1
+edge = 2
+edge = 10
+is_acyclic(edge, parent, rank) = 1
+edge = 2
+edge = 3
+edge = 15
+is_acyclic(edge, parent, rank) = 0
+edge = 4
+edge = 3
+edge = 40
+is_acyclic(edge, parent, rank) = 0
+after crash 
+Vertex 0 --> 
+Vertex 1 --> 
+Vertex 2 --> 
+Vertex 3 --> 
+0
