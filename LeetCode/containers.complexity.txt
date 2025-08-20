@@ -1,0 +1,13 @@
+Container           | Insertion      | Deletion       | Access         | Search
+--------------------------------------------------------------------------------------
+std::vector          | O(1)* / O(n)   | O(n)           | O(1)           | O(n)
+std::array           | O(1)           | O(n)           | O(1)           | O(log n) binary search
+std::deque           | O(1)           | O(1)           | O(1)           | O(n)
+std::list            | O(1)           | O(1)           | O(n)           | O(n)
+std::set             | O(log n)       | O(log n)       | -              | O(log n)
+std::map             | O(log n)       | O(log n)       | -              | O(log n)
+std::unordered_set   | O(1)* / O(n)   | O(1)* / O(n)   | -              | O(1)* / O(n)
+std::unordered_map   | O(1)* / O(n)   | O(1)* / O(n)   | -              | O(1)* / O(n)
+std::priority_queue  | O(log n)       | O(log n)       | O(1) -         | O(n) - linear search
+std::queue           | O(1)           | O(1)           | O(1) -         | O(n) - linear search
+std::stack           | O(1)           | O(1)           | O(1) -         | O(n) - linear search
